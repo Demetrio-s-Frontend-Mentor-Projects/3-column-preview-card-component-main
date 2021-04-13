@@ -1,8 +1,13 @@
 .car-container {
+    align-self: center;
     box-sizing: border-box;
-    display: inline-table;
+    display: inline-flex;
     flex-direction: row;
+    justify-self: center;
+    position: absolute;
+    width: 50vw;
+}
 
-
-    
+.car-div1, .car-div2, .car-div3 {
+    width: 33%;
 }
