@@ -1,0 +1,8 @@
+.car-container {
+    box-sizing: border-box;
+    display: inline-table;
+    flex-direction: row;
+
+
+    
+}
