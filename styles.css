@@ -1,13 +1,43 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+}
+
+.attribution { 
+    bottom: 0;
+    font-size: 11px; 
+    position: absolute;
+    text-align: center; 
+    width: 100%;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 .car-container {
-    align-self: center;
-    box-sizing: border-box;
     display: inline-flex;
     flex-direction: row;
-    justify-self: center;
     position: absolute;
-    width: 50vw;
+    width: 75%;
+   
 }
 
 .car-div1, .car-div2, .car-div3 {
     width: 33%;
+    color: white;
+}
+
+
+
+
+.car-div1{
+    background-color: hsl(31, 77%, 52%)
+}
+.car-div2{
+    background-color: hsl(184, 100%, 22%)
+}
+.car-div3{
+    background-color: hsl(179, 100%, 13%)
 }
