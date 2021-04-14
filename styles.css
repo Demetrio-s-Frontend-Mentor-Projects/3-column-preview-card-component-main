@@ -19,31 +19,30 @@ body{
 .car-container {
     display: inline-flex;
     flex-direction: row;
+    height: 60vh;
     position: absolute;
-    width: 70%;
-    height: 55vh;
+    width: 66%;
 }
 
 .car-div1, .car-div2, .car-div3 {
     width: 33%;
-    color: white;
-    padding: 2.75em 3.65em 1.5em 2.4em ;
+    padding: 2.75em 3em 1.5em 2.4em ;
 }
 
 .title {
+    color: white;
     font-family: 'Big Shoulders Display', cursive;
     font-stretch: ultra-expanded;
     font-size: 3em;
     margin-bottom: .6em;
-
 }
 
 .blurb {
+    color: rgba(255, 255, 255, 0.74);
     font-family: 'Lexend Deca', sans-serif;
     font-kerning: auto;
-    padding-right: .40em;
+    line-height: 35px;
     font-size: 19px;
-    word-spacing: .40em;
 }
 
 .car-div1{
