@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    font-size: 15px;
+    
 }
 
 .attribution { 
@@ -20,17 +20,31 @@ body{
     display: inline-flex;
     flex-direction: row;
     position: absolute;
-    width: 75%;
-   
+    width: 70%;
+    height: 55vh;
 }
 
 .car-div1, .car-div2, .car-div3 {
     width: 33%;
     color: white;
+    padding: 2.75em 3.65em 1.5em 2.4em ;
 }
 
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-stretch: ultra-expanded;
+    font-size: 3em;
+    margin-bottom: .6em;
 
+}
 
+.blurb {
+    font-family: 'Lexend Deca', sans-serif;
+    font-kerning: auto;
+    padding-right: .40em;
+    font-size: 19px;
+    word-spacing: .40em;
+}
 
 .car-div1{
     background-color: hsl(31, 77%, 52%)
@@ -40,4 +54,17 @@ body{
 }
 .car-div3{
     background-color: hsl(179, 100%, 13%)
+}
+
+.learn-more {
+    background-color: transparent;
+    border-radius: 2em;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-stretch: wider;
+    padding: 1em 2.5em 1em 2.5em;
+    position: absolute;
+    bottom: 3em;
 }
