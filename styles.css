@@ -29,6 +29,11 @@ body{
 .car-div1, .car-div2, .car-div3 {
     width: 33%;
     padding: 2.75em 3em 1.5em 2.4em ;
+    min-height: 50%;
+}
+
+.car-div1 img, .car-div2 img, .car-div3 img{
+  height: 7%;
 }
 
 .title {
@@ -36,15 +41,18 @@ body{
     font-family: 'Big Shoulders Display', cursive;
     font-stretch: ultra-expanded;
     font-size: 3em;
-    margin-bottom: .6em;
+    height: 15%;
+    margin-bottom: .3em;
 }
 
 .blurb {
     color: rgba(255, 255, 255, 0.74);
     font-family: 'Lexend Deca', sans-serif;
     font-kerning: auto;
+    height: 35%;
     line-height: 35px;
-    font-size: 19px;
+    font-size: clamp(.75rem, 1.2rem, 3.5rem);
+    position: relative;
 }
 
 .car-div1{
@@ -59,13 +67,14 @@ body{
 
 .learn-more {
     background-color: transparent;
-    bottom: 3em;
     border-radius: 2em;
     border: 2px solid white;
+    bottom: 2vh;
     color: white;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     font-stretch: wider;
+    height: 10%;
     padding: 1em 2.5em 1em 2.5em;
-    position: absolute;
+    position: relative;
 }
